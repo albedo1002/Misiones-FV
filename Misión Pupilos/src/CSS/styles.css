@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --principal: #1746FF;
+    --titulo: #3CDAFE;
+    --fondo: #F8F8F8;
+}
+.knewave_regular {
+    font-family: "Knewave", system-ui;
+    font-weight: 200;
+    font-style: normal;
+  }  
+.lato_regular {
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+header {
+    background-color: var(--principal);
+    height: 2rem;
+}
+main {
+    width: 100%;
+    height: 100vh;
+}
+footer {
+    position: relative;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--principal);
+}
+h1 {font-size: 1.9rem }
+.cuerpo_tarjeta {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Images/Fondo_MIRA.jpg);
+    background-size: cover cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.opaco {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta {
+    width: 75%;
+    height: 85%;
+    background-color: var(--fondo);
+    border-radius: 30px;
+}
+.triangulo {
+    width: 0px;
+    height: 0px;
+    border-left: 120px solid var(--principal);
+    border-bottom: 40px solid transparent;
+    border-top: 40px solid transparent;
+    position: absolute;
+    margin: -3rem 0 0 -2rem;
+    border-radius: 20px 0 0 20px;
+    transform: rotate(-30deg);
+    z-index: 2;
+}
+.sombra {
+    border-left: 120px solid black;
+    margin: -2.8rem 0 0 -1.8rem;
+    z-index: 1;
+}
+.int_izq {
+    height: 100%;
+    width: 100%;
+}
+.borde_arriba {
+    position: relative;
+background-color: black;
+z-index: 2;
+width: 95%;
+height: 2px;
+padding: 0;
+margin: auto;
+border: 2px inset rgb(167, 167, 167);
+}
+.nombre {
+    color: var(--titulo);
+    text-shadow: 0px 3px 3px rgb(155, 154, 154);
+}
+.arriba {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.medio {
+    height: fit-content;
+    text-align: center;
+}
+.medio h2 {
+    margin-bottom: 16px;
+}
+.medio p {
+    margin: auto;
+}
+.sobre_mi {
+    width: 85%;
+}
+.mision {
+    margin: auto;
+    padding: 0;
+    height: 35vh;
+    width: 90%;
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, #FD1D1D, #833AB4, #FFFF00, #FCB045);
+    padding: 3px;
+}
+.mision img {
+    width: 100%;
+    height: 100%;
+}
