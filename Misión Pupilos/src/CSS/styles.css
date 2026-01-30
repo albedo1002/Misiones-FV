@@ -26,13 +26,13 @@ main {
     height: fit-content;
 }
 footer {
-    position: absolute;
-    bottom: 0px;
+    position: relative;
     height: 3rem;
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: var(--principal);
+    margin-top: 1rem;
 }
 h1 {font-size: 1.9rem }
 .cuerpo_tarjeta {
@@ -130,6 +130,7 @@ border: 2px inset rgb(167, 167, 167);
     height: 100%;
 
 }
+
 
 
 
