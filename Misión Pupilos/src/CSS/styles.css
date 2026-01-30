@@ -27,6 +27,7 @@ main {
 }
 footer {
     position: relative;
+    bottom: 0px;
     height: 3rem;
     width: 100%;
     display: flex;
@@ -129,6 +130,7 @@ border: 2px inset rgb(167, 167, 167);
     height: 100%;
 
 }
+
 
 
 
