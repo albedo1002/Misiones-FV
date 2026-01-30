@@ -24,7 +24,8 @@ header {
 main {
     width: 100%;
     height: fit-content;
-    padding: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 footer {
     position: relative;
@@ -128,6 +129,7 @@ border: 2px inset rgb(167, 167, 167);
     height: 100%;
 
 }
+
 
 
 
