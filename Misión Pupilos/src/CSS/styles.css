@@ -41,8 +41,6 @@ h1 {font-size: 1.9rem }
     background-size: cover cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
 }
 .opaco {
     height: 100%;
@@ -57,6 +55,8 @@ h1 {font-size: 1.9rem }
     height: 85%;
     background-color: var(--fondo);
     border-radius: 30px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 .triangulo {
     width: 0px;
@@ -129,6 +129,7 @@ border: 2px inset rgb(167, 167, 167);
     height: 100%;
 
 }
+
 
 
 
