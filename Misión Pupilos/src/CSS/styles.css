@@ -23,7 +23,7 @@ header {
 }
 main {
     width: 100%;
-    height: fit-content;
+    height: 100vh;
 }
 footer {
     position: relative;
@@ -35,7 +35,7 @@ footer {
 }
 h1 {font-size: 1.9rem }
 .cuerpo_tarjeta {
-    height: 100%;
+    height: fit-content;
     width: 100%;
     background-image: url(../Images/Fondo_MIRA.jpg);
     background-size: cover cover;
@@ -127,3 +127,4 @@ border: 2px inset rgb(167, 167, 167);
     height: 100%;
 
 }
+
